@@ -9,6 +9,8 @@ the artist (Halcyon Drift), the label (Night Signal Records) and the release are
 **Stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Three.js via React Three Fiber ·
 Web Audio API · GSAP ScrollTrigger · Lenis
 
+**Live:** https://resonance-audio-experience.vercel.app
+
 ## Run locally
 
 ```bash
@@ -97,6 +99,7 @@ scripts/             make-track.mjs (renders the track)
   seconds of blocking time under CPU throttling. The orb reads a value kept by a passive scroll
   listener instead.
 
-## Deploy to Vercel
+## Deploy
 
-Push to GitHub → vercel.com → Add New Project → import repo → Deploy. No settings needed.
+Hosted on Vercel and connected to the GitHub repo: every push to `main` deploys automatically.
+No build settings needed.
