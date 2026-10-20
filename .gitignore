@@ -45,3 +45,7 @@ next-env.d.ts
 
 # rendered source WAV (the MP3 is the shipped file)
 public/audio/*.wav
+
+# Local AI-assistant notes and settings (kept on this machine, not in the repo)
+CLAUDE.md
+.claude/
